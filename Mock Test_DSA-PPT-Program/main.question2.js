@@ -16,11 +16,6 @@ function firstUniqChar(s) {
         return i; // Return the index of the first non-repeating character
       }
     }
-  
-    return -1; // If no non-repeating character found, return -1
+  // If no non-repeating character found, return -1
+    return -1; 
   }
-  
-  // Test cases
-  console.log(firstUniqChar("leetcode")); // Output: 0
-  console.log(firstUniqChar("loveleetcode")); // Output: 2
-  console.log(firstUniqChar("aabb")); // Output: -1

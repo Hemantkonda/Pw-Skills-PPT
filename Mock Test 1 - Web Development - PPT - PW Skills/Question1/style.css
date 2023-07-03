@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section{
+
+    height: 200vh;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-box{
+    height: 180px;
+    width: 220px;
+    border: 1px solid red;
+}
+
+.box{
+    height: 100px;
+    width: 140px;
+    background: yellow;
+}
+
+.absolute{
+    background-color: blue;
+}
+
+.main-box:nth-child(3){
+    height: 480px;
+}
+
+.position-static{
+    position: static;
+}
+
+.position-fixed{
+    position: fixed;
+}
+
+.position-sticky{
+    position: sticky;
+    top: 0;
+}
+
+.position-relative{
+    position: relative;
+    left: 40px;
+    top: 30px;
+}
+
+.position-absolute{
+    position: absolute;
+    top: 0rem;
+}

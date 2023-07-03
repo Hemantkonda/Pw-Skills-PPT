@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="box">
+            <h2>Form Validation</h2>
+            <form action="" class="form" name="myForm" onsubmit="return validateForm()">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Enter Name" id="name" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" id="email" placeholder="Enter email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="phone" id="phone" placeholder="Enter phone" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="password" id="password" placeholder="Enter password"
+                        class="form-control">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="age" id="age" placeholder="Enter age" class="form-control">
+                </div>
+                <div class="form-group">
+                    <select name="gender" id="gender" placeholder="select gender" class="form-control">
+                        <option value=""></option>
+                        <option value="male"> male</option>
+                        <option value="female">female</option>
+                        <option value="transgender">transgender</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="date" name="date" placeholder="Select Date" class="form-control">
+                </div>
+                <div class="form-group">
+                    <h4>Select Color</h4>
+                    <input type="color" name="color" placeholder="Pick Color Here" class="form-control">
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

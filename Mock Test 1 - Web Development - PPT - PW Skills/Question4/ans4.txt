@@ -1,0 +1,55 @@
+It consists of two main components: the Variable Environment and the Lexical Environment. To understand the execution
+context better, let's break down these components and visualize them with a diagram.
+
+Variable Environment:
+The Variable Environment is responsible for holding variables and function declarations. It consists of two parts:
+
+a. Environment Record: It is a record of all variables and functions declared within the current scope. It includes
+function declarations, variable declarations, and function arguments.
+
+b. Outer Environment: It refers to the surrounding scope or the parent scope of the current scope. It allows variables
+and functions to be accessed from outer scopes.
+
+Lexical Environment:
+The Lexical Environment holds identifiers (variable and function names) and their respective values. It is responsible
+for maintaining the scope chain and resolving variables during the runtime.
+
+Now, let's represent the execution context with a diagram:
+
+
+Execution Context
++-------------------------------------------------+
+| Variable Environment |
+| +-----------------------------------------+ |
+| | Environment Record | |
+| | +---------------------------------+ | |
+| | | Function Declarations | | |
+| | | Variable Declarations | | |
+| | | Function Arguments | | |
+| | +---------------------------------+ | |
+| | Outer Environment (Parent Scope) | |
+| +-----------------------------------------+ |
+| |
+| Lexical Environment |
+| +-----------------------------------------+ |
+| | Identifiers and Values | |
+| | +---------------------------------+ | |
+| | | Variables and Functions | | |
+| | +---------------------------------+ | |
+| | Scope Chain | |
+| +-----------------------------------------+ |
++-------------------------------------------------+
+
+In the diagram above, the execution context is represented as a box. Inside the execution context, we have two main
+parts: the Variable Environment and the Lexical Environment.
+
+The Variable Environment contains the Environment Record, which holds function declarations, variable declarations, and
+function arguments. It also has a reference to the Outer Environment, which points to the parent scope. This allows
+variables and functions to be accessed from outer scopes.
+
+The Lexical Environment contains identifiers and their respective values. It includes variables and functions declared
+within the current scope. It also maintains a Scope Chain, which represents the hierarchical chain of scopes. This chain
+helps in resolving variables during runtime by searching for them in the Lexical Environments of outer scopes.
+
+By understanding the execution context and its components, we can better understand how JavaScript code is executed and
+how variables and functions are scoped and accessed within a program.

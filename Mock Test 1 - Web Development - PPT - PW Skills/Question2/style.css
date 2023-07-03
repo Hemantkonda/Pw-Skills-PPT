@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    padding: 30px;
+    border: 1px solid rgb(211, 208, 208);
+}
+
+/* .form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
+.form-control {
+    font-size: 14px;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 55px;
+    background-color: #ffffff;
+    border: 2px solid #e6e8eb;
+    margin: 1rem 0;
+    width: 250px;
+
+}
+
+.btn{
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
+    font-weight: 700;
+    min-width: 170px;
+    height: 52px;
+    text-align: center;
+    margin-left: 50px;
+}

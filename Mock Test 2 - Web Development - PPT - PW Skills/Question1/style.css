@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+.action{
+    height: 600px;
+    width: 600px;
+    background-color: yellow;
+}

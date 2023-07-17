@@ -12,7 +12,7 @@ app.get('/random', (req, res) => {
   res.json({ random: randomNumber });
 });
 
-// Start the server on port 3000
+// Start the server on port 3050
 app.listen(3050, () => {
   console.log('Server is running on http://localhost:3050');
 });

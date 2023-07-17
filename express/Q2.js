@@ -24,7 +24,7 @@ app.post('/decrement', (req, res) => {
   res.json({ counter });
 });
 
-// Start the server on port 3000
+// Start the server on port 3030
 app.listen(3030, () => {
   console.log('Server is running on http://localhost:3030');
 });

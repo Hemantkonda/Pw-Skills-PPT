@@ -2,6 +2,7 @@
 
 function convertToNumber(str) {
     const converted = Number(str.trim());
+    // applying conditions
     if (isNaN(converted)) {
         throw new Error("Invalid number");
     }
@@ -19,6 +20,7 @@ try {
 // Q2.
 
 function getPerson(personObj) {
+    // applying conditions
     if (typeof personObj !== "object" || !personObj.hasOwnProperty("name") || !personObj.hasOwnProperty("age")) {
         throw new Error("Invalid parameter type");
     }

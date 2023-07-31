@@ -1,6 +1,6 @@
 // Q4. Ans
 
-// Asynchronous functions returning Promises
+AsyncPromise
 function getUser(userId) {
     return new Promise((resolve, reject) => {
       // Simulating an API call to fetch user data
